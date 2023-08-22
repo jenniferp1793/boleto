@@ -1,6 +1,5 @@
 import Vendedor from "../models/vendedor.js";
-import bcryptjs from "bcryptjs"
-import  {generarJWT} from "../middlewares/validar-jwt.js";
+
 
 const httpVendedor = {
     getVendedor: async (req, res) => {
